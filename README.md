@@ -28,13 +28,15 @@ Change the path to the main project in `data conversion.py`:
 Change the path to the python dependencies inside `Glimpse 4D/CMakeLists.txt`:
 
 ```CMake
-
+set(PYTHON_ROOT "$ENV{USERPROFILE}/.pyenv/pyenv-win/versions/3.13.2")
+```
 ## Usage
 To run the project, you should make a build of your own, preferably inside /out/build/... or /build/... and then execute the .exe file
 ```bash
 ./build/out/Glimpse 4D.exe
 ```
-You can use WASD in addition to Z, C, Q, and E
+You can use WASD in addition to Z, C, Q, and E <br>
+	
 There's a screenshot of the environment below:
 
 ![An angeled 4-dimensional tesseract](Glimpse 4D/Screenshots/Screenshot 2026-01-07 134305.png)
