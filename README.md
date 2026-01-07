@@ -39,7 +39,7 @@ You can use WASD in addition to Z, C, Q, and E <br>
 	
 There's a screenshot of the environment below:
 
-![An angeled 4-dimensional tesseract](Glimpse 4D/Screenshots/Screenshot 2026-01-07 134305.png)
+![An angeled 4-dimensional tesseract](https://github.com/niko-kokawa/Glimpse-4D/blob/master/Glimpse%204D/Screenshots/Screenshot%202026-01-07%20134305.png)
 
 ## Contributing
 1. Fork the repository.
