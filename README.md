@@ -20,18 +20,24 @@ A tool that enables 4-dimensional object viewing, with a game engine-like camera
 
 3. Change path to the files according to your own device:
 
-	Change the path to the main project in `data conversion.py`:
+Change the path to the main project in `data conversion.py`:
 ```py
  ROOT_DIRECTORY = r"D:\VS Projects\Glimpse 4D\Glimpse 4D"
 ```
 	
-	Change the path to the python dipendencies inside "Glimpse 4D/CMakeLists.txt"
+Change the path to the python dependencies inside `Glimpse 4D/CMakeLists.txt`:
+
+```CMake
 
 ## Usage
 To run the project, you should make a build of your own, preferably inside /out/build/... or /build/... and then execute the .exe file
 ```bash
 ./build/out/Glimpse 4D.exe
 ```
+You can use WASD in addition to Z, C, Q, and E
+There's a screenshot of the environment below:
+
+![An angeled 4-dimensional tesseract](Glimpse 4D/Screenshots/Screenshot 2026-01-07 134305.png)
 
 ## Contributing
 1. Fork the repository.
@@ -41,4 +47,4 @@ To run the project, you should make a build of your own, preferably inside /out/
 5. Create a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [AGPL-3.0 License](LICENSE).
