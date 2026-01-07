@@ -1,0 +1,9 @@
+
+# Please install the vcpkg packages within your device
+vcpkg_installed/
+
+#ignoring the build
+out/
+
+#ignoring the IDE-related settings
+.vs/
