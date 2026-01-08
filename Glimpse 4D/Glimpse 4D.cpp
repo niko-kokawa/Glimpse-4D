@@ -40,7 +40,6 @@ void updateCameraControls(GLFWwindow* window, Camera4D& cam, float dt)
     if (glfwGetKey(window, GLFW_KEY_W)) cam.rotation = Rot4::Plane(0, 2, s) * cam.rotation;
     if (glfwGetKey(window, GLFW_KEY_S)) cam.rotation = Rot4::Plane(0, 2, -s) * cam.rotation;
 
-    // ⭐ 4D rotations (THIS is what you were missing)
     if (glfwGetKey(window, GLFW_KEY_Q)) cam.rotation = Rot4::Plane(0, 3, s) * cam.rotation;
     if (glfwGetKey(window, GLFW_KEY_E)) cam.rotation = Rot4::Plane(0, 3, -s) * cam.rotation;
 
